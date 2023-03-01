@@ -13,7 +13,7 @@ else
 {
     Console.WriteLine($"Наибольшее цифра числа -> {secondDigit}");
 }
-//2
+
 int result = firstDigit > secondDigit ? firstDigit : secondDigit;
 Console.WriteLine($"Наибольшее цифра числа -> {result}");
 ////
