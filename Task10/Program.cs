@@ -11,6 +11,7 @@ int oneDigit = secondDigit % 10;
 Console.WriteLine($"Результат вычислений {secondDigit}");
 Console.WriteLine($"Результат вычислений {oneDigit}");
 
+
 int numberThree = inNumber(threeDigitNumber);
 Console.WriteLine($"Результат {numberThree}");
 
