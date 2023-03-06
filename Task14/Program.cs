@@ -9,5 +9,5 @@ Console.WriteLine(toBeOrNot ? "да" : "нет"); // тернарный опер
 
 bool ToBeOrNot(int num1)
 {
-    return num1 % 7 == 00 && num1 % 23 == 0; // 
+    return num1 % 7 == 0 && num1 % 23 == 0; // 
 }
