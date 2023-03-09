@@ -15,3 +15,5 @@ void CubeNumber(int num)
         i++;
     }
 }
+
+CubeNumber(Number);

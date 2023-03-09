@@ -11,7 +11,7 @@ Console.WriteLine($" В числе {Digit} = {iDigit} цифры");
 int Idigit(int num)
 {
     int count = 0;
-    while (num > 0)
+    while (num != 0)   ///!= не равно 0
     {
         num = num / 10;
         count++;
