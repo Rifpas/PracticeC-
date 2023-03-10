@@ -2,11 +2,9 @@
 // 1, 2, 5, 7, 19, 6, 1, 33 -> [1, 2, 5, 7, 19, 6, 1, 33]
 int[]array = new int[8];
 
-
     
 Array(array);
 WriteArray(array);
-
 
 void Array(int[]arr)
 {
@@ -14,7 +12,7 @@ void Array(int[]arr)
     for (int i = 0; i < arr.Length; i++)
 {
    array[i] = rand.Next(0, 35);                         
-   
+   Console.Write(array[i] + ", " );
 }
 }
 

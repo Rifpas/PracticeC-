@@ -6,6 +6,7 @@ int[] array = new int[8]; /// 0 1 2 3 4 5 6 7
 Array(array);
 WriteArray(array);
 
+
 void Array(int[] arr)
 {
     Random rand = new Random();
