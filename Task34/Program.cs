@@ -10,6 +10,7 @@ int[] array = new int[arraySize];
 
 FillArray(array);
 PrintArray(array);
+
 int evenNumArray = EvenNumArray(array);
 Console.WriteLine($"Количество чётных чисел = {evenNumArray}");
 

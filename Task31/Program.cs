@@ -11,7 +11,7 @@ PrintArray(array);
 
 int SumNegativeElem = GetSumNegativeElem(array);
 int SumPositiveElem = GetSumPositiveElem(array);
-Console.WriteLine($"Сумма  элементов = {SumNegativeElem}");
+Console.WriteLine($"Сумма положительных элементов = {SumNegativeElem}");
 Console.WriteLine($"Сумма положительных элементов = {SumPositiveElem}");
 
 int[] CreateArrayRndInt(int size, int min, int max)
@@ -48,7 +48,7 @@ int GetSumNegativeElem(int[] arr)
 
 int GetSumPositiveElem(int[] arr)
 {
-    int sum = 0;
+    int sum = 0
     for (int i = 0; i < arr.Length; i++)
     {
         if(arr[i] > 0) sum += arr[i];
